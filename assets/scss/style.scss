@@ -17,7 +17,7 @@ body {
     background: $body-bg url('../images/bg-body.png') no-repeat center top 50px;
     background-size: 100% auto;
 
-    @include media-breakpoint-up(md) {
+    @include media-breakpoint-up(lg) {
         background-position: center top 100px;
     }
 }
