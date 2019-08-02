@@ -14,12 +14,12 @@ body {
 body {
     display: flex;
     flex-direction: column;
-    background: $body-bg url('../images/bg-body.png') no-repeat center top 50px;
-    background-size: 100% auto;
+    background: $body-bg url('../images/bg-body.png') no-repeat center top;
+    background-size: auto;
 
-    @include media-breakpoint-up(lg) {
-        background-position: center top 100px;
-    }
+    // @include media-breakpoint-up(lg) {
+    //     background-position: center top 100px;
+    // }
 }
 
 main {
